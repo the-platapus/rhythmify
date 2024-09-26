@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/ThemedText.js", "components/ParallaxScrollView.js", "components/HelloWave.js", "components/Collapsible.js", "components/ExternalLink.js", "components/navigation/TabBarIcon.js", "app/+not-found.js", "app/+html.js", "app/_layout.js", "app/(tabs)/index.js", "app/(tabs)/favourite.js", "app/(tabs)/_layout.js", "components/ThemedView.js"  ]
+}
